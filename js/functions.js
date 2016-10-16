@@ -12,7 +12,6 @@ $(function () {
       $(this).html(markovtitles.makeChain(3)).fadeIn(500);
     });
 
-
     var result = "";
     for (i = 0; i < 15; i++)
       result += '<span>' +  markovlyrics.makeChain(5) + '</span>';
