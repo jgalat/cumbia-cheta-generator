@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  min-height: 100% !important;
+}
+
+body {
+  background-color: #2BB4B4;
+  min-height: 100% !important;
+  height: 100%;
+  font-family: "Roboto Slab", FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+  color: #FBED2C;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: "Bungee Inline", FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  text-shadow: 3px 4px 0px #EF2631;
+}
+
+.lyric {
+  font-size: inherit;
+}
+
+.ribbon {
+  color: #FBED2C;
+  background-color: #EF2631;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+.ribbon-content {
+  margin: 2rem;
+}
+
+.ribbon .ribbon-content h1 {
+  text-shadow: 3px 4px 0px #1E9ADD;
+  font-size: 5rem;
+}
+
+.is-center {
+  text-align: center;
+}
+
+.main {
+  margin: 0 0 3rem 0;
+  display: none;
+}
+
+.button-xlarge {
+    font-size: 145%;
+}
+
+.button-custom {
+  color: black;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: #FBED2C;
+  cursor: pointer;
+  text-shadow: 2px 1px 0px #1E9ADD;
+}
+
+.button-custom:hover {
+  color: #EF2631;
+  transition: color 1s;
+}
+
+span {
+  display: block;
+}
+
+@media (max-width: 48em) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .lyric {
+    max-width: none;
+    font-size: 1rem;
+  }
+}
