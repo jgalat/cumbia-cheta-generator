@@ -7,7 +7,7 @@ import string
 def prepareCorpus(c):
     splitted = c.split("\n")
     filtered = list(filter(None, splitted))
-    result = list(map(lambda x : x.capitalize(), filtered))
+    result = list(map(lambda x : x[0].lower() + x[1:], filtered))
     return result
 
 def reverseCorpus(c):

@@ -23,6 +23,8 @@ h2 {
 
 .lyric {
   font-size: inherit;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .ribbon {
@@ -74,6 +76,7 @@ h2 {
 
 span {
   display: block;
+  margin: 0.7rem 0;
 }
 
 @media (max-width: 48em) {
@@ -88,5 +91,6 @@ span {
   .lyric {
     max-width: none;
     font-size: 1rem;
+    margin: 0 3rem;
   }
 }
