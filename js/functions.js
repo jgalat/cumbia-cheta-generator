@@ -16,7 +16,6 @@ $(function () {
       $(this).html(markovtitles.makeChain(1).capitalize()).fadeIn(500);
     });
 
-
     var result = "";
     for (i = 0; i < 6; i++)
       result += '<span>' +  markovlyrics.makeChain(7).capitalize() + '</span>';
