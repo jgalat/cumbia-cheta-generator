@@ -18,7 +18,7 @@ $(function () {
 
     var result = "";
     for (i = 0; i < 6; i++)
-      result += '<span>' +  markovlyrics.makeChain(7).capitalize() + '</span>';
+      result += '<span>' +  markovlyrics.makeChain(8).capitalize() + '</span>';
 
     lyric.removeClass(animationEntrance)
       .addClass(animationExit)
@@ -30,7 +30,6 @@ $(function () {
                 .html(result)
                 .addClass(animationEntrance);
             });
-
   };
 
   first = function () {
